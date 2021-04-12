@@ -23,3 +23,4 @@ f=n1[0].split()
 for i in range(len(f)):
     s1=s1+int(f[i])
 print("Сумма чисел=",s1)
+input()
