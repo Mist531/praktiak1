@@ -5,10 +5,15 @@ a=input("Введите строчку: ")
 print(re.findall(r"\b\d+\b",a))
 print("Задание 2")
 a=input("Введите строчку: ")
-b=list(re.findall(r"(\b[А-Я]{2,}\b)",a))
+b=list(re.findall(r"\b[А-Я]{2,}\s",a))
 for i in range(0,len(b)):
     print(str(b[i]))
-
+print(b)
+c=list(re.findall(r"(\b[А-Я]{2,}\b|\s)+",a))
+for i in range(0,len(c)):
+    print(str(c[i]))
+print(c)
+input()
 
 
 

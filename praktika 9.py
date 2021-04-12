@@ -71,7 +71,7 @@ def grom(g):
     r=int(m.fabs(int(str(y-t).split()[0]))-(g.day))
     print("До конца месяца осталось:",str(r))
 grom(g)
-    
+input()
     
     
     
