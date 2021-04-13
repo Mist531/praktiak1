@@ -1,3 +1,4 @@
+print("Задание 1")
 n=[]
 n1=[]
 d1=0
@@ -16,6 +17,7 @@ for i in range(len(n)):
     d=d+1
     d1=d1+int(n[i][2])
 print("Ср. арифметическое класса=",str(d1/d))
+print("Задание 2")
 for i in open("num.txt"):
     n1.append(i[:-1])
     print(n1)
